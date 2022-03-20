@@ -19,8 +19,7 @@ if (mediaQuery.matches) {
   $(document).ready(function(){
     //here getting mobile content
    $(".accordion-list").removeClass("accordion-list")
-   
-  
+     
     var mobileNav =  $("#mobile_aside" ).html()
     function getContHover (child){
       var hoverContent = $(`#mobile_aside .${child || "Auto"}`).html()
@@ -37,12 +36,14 @@ if (mediaQuery.matches) {
     var deskTopHeadings = $("#desktop_site_nav .answer")
         deskTopHeadings.hide()
   })
-  document.getElementById("mobile_login").innerHTML= ""
+ 
+  $(".browse").on("click",()=>{
+      $(".desktop").toggleClass("d-none")
+  })
   
 }
 
 if(mediaQuerymax.matches){
- 
     document.getElementById("mobile_login").innerHTML= $(".user").html()
     var div = $(".nav_items_box");
      $("#close").on("click", ()=>{

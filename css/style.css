@@ -85,6 +85,10 @@ section{
     width: 90% !important;
     font-size: 15px !important;
  }
+ .browse{
+     cursor: pointer;
+     user-select: none;
+ }
  header .input_boxes input[type="button"]{
      width: 100% !important;
  }
