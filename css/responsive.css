@@ -1,0 +1,72 @@
+@media screen and  (max-width:892px) {
+    .my_container{
+        width: 90%;
+        margin: auto;
+    }
+    .head_foot_container{
+        width: 100%;
+    }
+    .button{
+        width: 100% !important;
+    }
+    .scan-img{
+        width: 100% !important;
+    }
+    .col-12{
+        margin: 10px 0px !important;
+    }
+    .buttons a{
+        margin-top: 10px ;
+        margin-left: 1px;
+        display: inline-block;
+    }
+    .button a {
+        margin-top: 5px;
+        display: inline-block;
+    }
+    .Coupons .content .img {
+        padding-left: 10px;
+    }
+    .Coupons .card_box .hover-box{
+        flex-direction: column;
+        width: 100%;
+    }
+    .button.detail a{
+        display: block;
+    }
+    .br{
+        display: none;
+    }
+    .accordion-button:not(.collapsed), .accordion-button {
+        border: 1px solid #000 !important;
+    }
+    .accordion-button, .accordion-body {
+        background-color: none !important;
+        padding:5px 10px !important;
+    }
+    .accordion-button:focus{
+        border: 1px solid #000 !important;
+        box-shadow:  none !important;
+        background-color: none !important;
+    }
+}
+.accordion-button h6{
+    color: #000 !important;
+}
+/* .accordion-button:not(.collapsed), .accordion-item, .accordion-button:focus{
+    box-shadow:  none !important;
+    border: none !important;
+} */
+@media screen and  (min-width:892px){
+    .accordion-button:not(.collapsed), .accordion-item, .accordion-button:focus{
+        background: none !important;
+        box-shadow:  none !important;
+        border: none !important;
+        cursor: auto !important;
+    }
+    .accordion-button, .accordion-body {
+        background-color: none !important;
+        padding: 0 !important;
+    }
+  
+}

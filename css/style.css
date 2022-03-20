@@ -1,0 +1,184 @@
+
+:root{
+    --b-success-color:#4f9300;
+    --b-warning-color:#ffd400;
+    --b-primary-color:#3cadc9;
+    --b-primary1-color:#1877F2;
+    --b-primary2-color:#b0f1ffbb;
+    --b-seconday-blue-color:#067ab4;
+    --b-white-color:#fff;
+    --b-dark-color:#000;
+
+}
+body{
+    font-family: helvetica,arial,sans-serif;
+}
+h1, h2, h3, h4, h5, h6, strong {
+    font-weight: 700;
+    letter-spacing: 0;
+}
+* a{
+ text-decoration: none !important;
+}
+.fas{
+    font-size: 11px;
+}
+.my_container{
+    width: 60%;
+    margin: auto;
+}
+.b_text-success{
+color: var(--b-success-color) !important;
+}
+.my_container2{
+    width: 55%;
+    margin: auto;
+}
+section{
+    margin: 50px 0;
+}
+.b_btn_primary{
+  background-color: var(--b-primary-color);
+  padding: 10px 20px;
+  color: var(--b-white-color);
+  font-size: 1rem;
+  margin: 10px 0;
+  display: inline-block;
+  text-align: center;
+}
+.b_btn_success{
+  background-color: var(--b-success-color);
+  padding: 5px 20px;
+  color: var(--b-white-color);
+  font-size: 1rem;
+  margin: 10px 0;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid var(--b-success-color);
+}
+
+.b_btn_primary2{
+    background-color: var(--b-primary2-color) !important;
+    color: var(--b-dark-color) !important;
+    border: 1px solid rgba(10, 32, 41, 0.247);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.b_btn_primary2:hover{
+    text-decoration: underline !important;
+}
+.b_btn_primary:hover, .b_btn_success:hover{
+    color: var(--b-white-color);
+}
+.btn-secondary2{
+    color: var(--b-seconday-blue-color) !important;
+}
+.btn-secondary2:hover{
+    color: var(--b-white-color) !important;
+    background-color: var(--b-seconday-blue-color);
+}
+/* section scan start  */
+
+ .scan .content h5{
+     font-size:1rem;
+ }
+/* section scan end  */
+/* section app start  */
+ .app, .business, footer{
+   background-color: rgba(206, 206, 206, 0.3);
+   padding: 1em;
+ }
+ .app .users span{
+     font-size:0.7rem;
+ }
+/* section scan end  */
+/* question app start  */
+.buttons a{
+    margin-left: 10px;
+}
+/* question scan end  */
+/* coupon app start  */
+.Coupons i{
+    font-size: 1.4rem;
+}
+.Coupons .col-12.col-md-3{
+    padding: 0 !important;
+    margin: 5px 0 !important;
+}
+.Coupons .card_box{
+    height: 300px;
+    width: 100%;
+    position: relative;
+}
+.Coupons .card_box .hover-box{
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    visibility: hidden;
+    z-index: 2;
+    left: 0;
+    border: 3px dashed green;
+}
+.Coupons .card_box:hover .hover-box{
+    visibility: visible;
+}
+.button.detail a{
+    display: inline-block;
+    width: 130px;
+    margin: 5px 0;
+}
+/* coupon  end  */
+
+/* footer  end  */
+.head_foot_container{
+    width: 70%;
+    margin:  auto;
+}
+.head_foot_container .content h6::before{
+   position: absolute;
+   content: "";
+   height: 3px;
+   background-color: var(--b-warning-color);
+   width: 20px;
+   top: 100%;
+   left: 0;
+}
+footer .links li{
+    list-style: none;
+}
+footer .links li a{
+    font-size: 14px;
+}
+footer .links li a:hover{
+    text-decoration: underline !important;
+}
+footer .accordion-button::after{
+    background-image: none !important;
+}
+footer .social-icons i {
+    background-color:var(--b-primary1-color) ;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    color: var(--b-white-color);
+    line-height: 22px;
+}
+footer .social-icons i:nth-child(2){
+    background-color:#1B9DF0 ;
+}
+footer .policy a{
+    font-size: 13px;
+    color: #1B9DF0;
+}
+
+
+footer .copyright p {
+    font-size: 12px;
+}
+/* Footer end  */
