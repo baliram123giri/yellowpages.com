@@ -1,0 +1,110 @@
+ul.accordion-list {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    margin: 0;
+    list-style: none;
+    background-color: #f9f9fa;
+}
+ul.accordion-list li {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 auto 15px auto;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ul.accordion-list li.active h3:after {
+    transform: rotate(45deg);
+}
+ul.accordion-list li h3 {
+    font-weight: 700;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0 0 0 0;
+    margin: 0;
+    font-size: 15px;
+    letter-spacing: 0.01em;
+    cursor: pointer;
+}
+ul.accordion-list li h3:after {
+    content: "\f278";
+    font-family: "material-design-iconic-font";
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #fcc110;
+    transition: all 0.3s ease-in-out;
+    font-size: 18px;
+}
+ul.accordion-list li div.answer {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+ul.accordion-list li div.answer p {
+    position: relative;
+    display: block;
+    font-weight: 300;
+    padding: 10px 0 0 0;
+    cursor: pointer;
+    line-height: 150%;
+    margin: 0 0 15px 0;
+    font-size: 14px;
+}
+.desktop{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-color: #eee;
+    top: 35px;
+}
+.browse-nav{
+    list-style: none;
+}
+.browse-nav .answer a{
+    font-size: 13px !important;
+    display: block;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 8px 0px;
+}
+
+.first_ele h3{
+   font-size: 14px !important;
+   font-weight: normal !important;
+   font-family: helvetica,arial,sans-serif;
+}
+.desktop #desktop_site_nav{
+   border-right: 1px solid rgba(0, 0, 0, 0.2) !important;
+}
+/* hover items styling  */
+.hover_items{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.hover_items a{
+    font-size: 14px !important;
+    padding: 8px 0;
+}
+.desktop .first_ele{
+    width: 200px;
+    padding: 2px 0px;
+    cursor:context-menu;
+}
+ .desktop .first_ele i{
+ color: rgb(63, 61, 61);
+ width: 10px;
+}

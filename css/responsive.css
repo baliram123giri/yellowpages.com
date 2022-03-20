@@ -24,6 +24,44 @@
         margin-top: 5px;
         display: inline-block;
     }
+    header .input_boxes i{
+        /* display: none; */
+        font-size: 11px !important;
+        margin-left: 5px;
+    }
+    header .input_boxes input{
+        font-size: 10px!important;
+        width: 80% !important;
+       
+    }
+    header .desktop{
+        display: none !important;
+    }
+    header .browse{
+    display: none;
+    }
+    header .nav_items_box{
+       width: 200px !important;
+       height: 100vh;
+       position: fixed;
+       z-index: 10;
+       right: -280px;
+       top: 0;
+    }
+    header .user{
+        display: none !important;
+    }
+    #mobile_login .buttons {
+        margin: 10px 0;
+    }
+    .first_ele h3 i{
+        display: none;
+    }
+    #mobile_login .buttons a{
+      display: block !important;
+      font-size: 14px !important;
+      font-weight: normal !important;
+    }
     .Coupons .content .img {
         padding-left: 10px;
     }

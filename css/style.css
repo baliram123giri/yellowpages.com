@@ -17,6 +17,9 @@ h1, h2, h3, h4, h5, h6, strong {
     font-weight: 700;
     letter-spacing: 0;
 }
+.b_bg_warning{
+    background-color: var(--b-warning-color) !important;
+}
 * a{
  text-decoration: none !important;
 }
@@ -77,8 +80,21 @@ section{
     color: var(--b-white-color) !important;
     background-color: var(--b-seconday-blue-color);
 }
+/* header  start  */
+ header .input_boxes input{
+    width: 90% !important;
+    font-size: 15px !important;
+ }
+ header .input_boxes input[type="button"]{
+     width: 100% !important;
+ }
+ input:focus{
+     border: none !important;
+     box-shadow:  none !important;
+     outline: none !important;
+ }
+/* header  end  */
 /* section scan start  */
-
  .scan .content h5{
      font-size:1rem;
  }
@@ -176,9 +192,10 @@ footer .policy a{
     font-size: 13px;
     color: #1B9DF0;
 }
-
-
 footer .copyright p {
     font-size: 12px;
 }
 /* Footer end  */
+
+
+/* header nav start  */
