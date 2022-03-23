@@ -26,7 +26,9 @@ if (mediaQuery.matches) {
          $(".hover_items").html(hoverContent)
     }
     getContHover()
+  
     $(document).on("mouseover",".desktop .first_ele ", function(e){
+         console.log(e.target)
         var selector =  !e.target.querySelector("span")?"": e.target.querySelector("span").innerHTML
             selector = selector.split(" ")[0]
            $(".desktop .first_ele ").hover(  getContHover(selector))       

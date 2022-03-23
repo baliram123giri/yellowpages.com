@@ -70,6 +70,7 @@ ul.accordion-list li div.answer p {
     height: 500px;
     background-color: #eee;
     top: 60px;
+    z-index: 22;
 }
 .browse-nav{
     list-style: none;
